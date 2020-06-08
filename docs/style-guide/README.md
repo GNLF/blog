@@ -16,8 +16,11 @@
     margin: 25.6px 25.6px 52px 25.6px !important;
     z-index:1;
   }
+  h4[id*="例"]+div[class^="language"] pre.language-js {
+    background: #333333 !important;
+  }
   div[class*="language-"] pre, div[class*="language-"] pre[class*="language-"] {
-    background: #333333;
+    background: #333333 !important;
   }
   h4[id*="例"]+div[class^="language"]::after{
       content: '';
